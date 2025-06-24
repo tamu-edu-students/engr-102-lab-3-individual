@@ -5,7 +5,7 @@ This lab consists of two individual activities, and an optional bonus activity. 
 
 1. [Using Input](#using-input)
 2. [Calling Functions](#calling-functions)
-3. [Challenge Program (Optional)](#challenge-program-(optional))
+3. [Challenge Program (Optional)](#challenge-program-optional)
 
 ## Using Input
 Convert your program from individual Lab: Topic 2 Activity #1 (Using Variables) to a new program that produces identical output. However, your new program should take in input from the user as appropriate, store values in variables, and output in the required format. Please name the program `using_input.py`.
@@ -46,6 +46,15 @@ description
 description
 
 ## Frequently Asked Questions
+1. **How do I round my output again?** Use string formatting (not the `round()` function!) to specify how many digits to display. Watch [this video](https://mediasite.tamu.edu/Mediasite/Play/95fc0a90130d47f5802d87e1d3020ecd1d) for examples.
+
+2. **Do I have to use radians in my trig functions every time?** YES! Every. Single. Time. Have python convert for you! Example: `sin(angle * pi / 180)`
+
+3. **I'm still having trouble figuring out why my output is wrong. Help?** Click on the failed test. You should see a caret (`^`) indicating what's different between your output and the solution output. Did you misspell something? Math error? Incorrect formatting? Hopefully that helps you figure it out!
+
+4. **Challenge activity how do I do it without `round()`?** If I gave you the answer it wouldn't be a challenge, would it? :) There's more than one way to solve it. One method: get creative with math operators. Remember some of the new ones we talked about in lecture 1? Another method: we use string formatting to control how many digits to display. But instead of hardcoding a number, can you use a variable to construct the format string?
+
+Have a question you don't see here? Email your instructor!
 
 Based upon Dr. Keyser’s Original<br/>
 Revised Summer 2025 SNR
