@@ -42,7 +42,7 @@ Please see the tests on Gradescope for exact wording for the remaining parts. As
 ## Calling Functions
 This activity provides practice for writing programs to perform multiple complex calculations, and to give you practice calling basic functions.
 
-*Starting with the template provided here*, write a program that calculates the area of several regular polygons when given a side length. Your program should take as input from the user a value for side length and calculate the following values:
+*Starting with the [template provided here](calling_functions.py)*, write a program that calculates the area of several regular polygons when given a side length. Your program should take as input from the user a value for side length and calculate the following values:
 - The area of an equilateral triangle
 - The area of a square
 - The area of a regular pentagon
@@ -67,7 +67,16 @@ A dodecagon with side 1.25 has area 17.494
 
 
 ## Challenge Program (Optional)
-description
+Using *only the commands we have covered in class so far*, write a program that asks a user for a number of digits, and prints the number τ ([tau](https://www.youtube.com/watch?v=bcPTiiiYDs8)) rounded to that many digits of precision. Do **NOT** use the `round()` function. Instead, get creative and think of another way!
+
+Example output (using input `5`):
+```
+Please enter the number of digits of precision for tau: 5
+The value of tau to 5 digits is: 6.28319
+```
+
+If you complete this challenge correctly, you will receive **2 bonus points** on this assignment. Please name your program `tau_challenge.py` and submit to Gradescope.
+
 
 ## Frequently Asked Questions
 1. **How do I round my output again?** Use string formatting (not the `round()` function!) to specify how many digits to display. Watch [this video](https://mediasite.tamu.edu/Mediasite/Play/95fc0a90130d47f5802d87e1d3020ecd1d) for examples.
