@@ -49,7 +49,7 @@ This activity provides practice for writing programs to perform multiple complex
 - The area of a regular hexagon
 - The area of a regular dodecagon (12 sides)
 
-We’re going to ignore units for this problem. The template provided contains the function `printresult()`. You should **NOT** modify the function in your code. Instead, have your program calculate the area for each shape and call the function to generate the output according to the example shown below. Use two (2) decimal places for the side length and three (3) for the area. Name your program `calling_functions.py`.
+We’re going to ignore units for this problem. The template provided contains the function `printresult()`. You should **NOT** modify the function in your code, nor should you write your own function. Instead, have your program calculate the area for each shape and then **call** the provided function to generate the output according to the example shown below. Use two (2) decimal places for the side length and three (3) for the area. Name your program `calling_functions.py`.
 
 Before you beginning coding, you should stop and think briefly about how you want to structure your program. This activity is a great way to practice calling the same function multiple times.
 
