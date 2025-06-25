@@ -40,7 +40,31 @@ Wavelength is 0.0287 nm
 Please see the tests on Gradescope for exact wording for the remaining parts. As always, please include descriptive comments in your code so that someone may follow your programming logic.
 
 ## Calling Functions
-description
+This activity provides practice for writing programs to perform multiple complex calculations, and to give you practice calling basic functions.
+
+*Starting with the template provided here*, write a program that calculates the area of several regular polygons when given a side length. Your program should take as input from the user a value for side length and calculate the following values:
+- The area of an equilateral triangle
+- The area of a square
+- The area of a regular pentagon
+- The area of a regular hexagon
+- The area of a regular dodecagon (12 sides)
+
+We’re going to ignore units for this problem. The template provided contains the function `printresult()`. You should **NOT** modify the function in your code. Instead, have your program calculate the area for each shape and call the function to generate the output according to the example shown below. Use two (2) decimal places for the side length and three (3) for the area. Name your program `calling_functions.py`.
+
+Before you beginning coding, you should stop and think briefly about how you want to structure your program. This activity is a great way to practice calling the same function multiple times.
+
+Example output (using input `1.25`):
+```
+Please enter the side length: 1.25
+A triangle with side 1.25 has area 0.677
+A square with side 1.25 has area 1.562
+A pentagon with side 1.25 has area 2.688
+A hexagon with side 1.25 has area 4.059
+A dodecagon with side 1.25 has area 17.494
+```
+
+**Helpful Hint**: When testing/debugging a program that requires input from the keyboard, it can be quite frustrating to have to retype the input every time you want to run the program. One technique for dealing with this problem is to simply “hard code” the variable values during the debugging process (assign variable values in the code rather that retrieving values from the keyboard), then add the code to retrieve the input from the keyboard after you are sure the code works.
+
 
 ## Challenge Program (Optional)
 description
