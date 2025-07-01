@@ -8,7 +8,7 @@ This lab consists of two individual activities, and an optional bonus activity. 
 3. [Challenge Program (Optional)](#challenge-program-optional)
 
 ## Using Input
-Convert your program from individual Lab: Topic 2 Activity #1 (Using Variables) to a new program that produces identical output. However, your new program should take in input from the user as appropriate, store values in variables, and output in the required format. Please name the program `using_input.py`.
+Convert your program from [individual Lab: Topic 2 Activity #1 (Using Variables)](https://github.com/tamu-edu-students/engr-102-lab-2-individual?tab=readme-ov-file#using-variables) to a new program that produces identical output. However, your new program should take in input from the user as appropriate, store values in variables, and output in the required format. Please name the program `using_input.py`.
 
 Produce output for the following calculations:
 1. Calculate the **Reynolds Number (Re)** for a fluid with a given velocity in m/s, a given characteristic linear dimension in m, and a given viscosity in m^2/s. Display the result with zero (0) decimal places.
