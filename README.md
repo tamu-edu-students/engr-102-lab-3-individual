@@ -23,7 +23,7 @@ Each part of your program should perform the following tasks:
 - Perform the necessary calculations.
 - Output the result to the screen with **proper labels and units**.
 
-Example output (using inputs `9`, `0.875`, `0.0015`, `0.025`, and `35`):
+Example output (using inputs `9`, `0.875`, `0.0015`, `0.025`, `35`, `10`, `100`, `2`, `11000`, `8300`, and `2029`):
 ```
 This program calculates the Reynolds number given velocity, length, and viscosity
 Please enter the velocity (m/s): 9
@@ -35,9 +35,21 @@ This program calculates the wavelength given distance and angle
 Please enter the distance (nm): 0.025
 Please enter the angle (degrees): 35
 Wavelength is 0.0287 nm
+
+This program calculates the production rate given time, initial rate, and decline rate
+Please enter the time (days): 10
+Please enter the initial rate (barrels/day): 100
+Please enter the decline rate (1/day): 2
+Production rate is 2.90 barrels/day
+
+This program calculates the change of velocity given initial mass, final mass, and exhaust velocity
+Please enter the initial mass (kg): 11000
+Please enter the final mass (kg): 8300
+Please enter the exhaust velocity (m/s): 2029
+Change of velocity is 571.4 m/s
 ```
 
-Please see the tests on Gradescope for exact wording for the remaining parts. As always, please include descriptive comments in your code so that someone may follow your programming logic.
+As always, please include descriptive comments in your code so that someone may follow your programming logic.
 
 ## Calling Functions
 This activity provides practice for writing programs to perform multiple complex calculations, and to give you practice calling basic functions.
