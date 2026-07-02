@@ -65,14 +65,14 @@ We’re going to ignore units for this problem. The template provided contains t
 
 Before you beginning coding, you should stop and think briefly about how you want to structure your program. This activity is a great way to practice calling the same function multiple times.
 
-Example output (using input `1.25`):
+Example output (using input `1.35`):
 ```
-Please enter the side length: 1.25
-A triangle with side 1.25 has area 0.677
-A square with side 1.25 has area 1.562
-A pentagon with side 1.25 has area 2.688
-A hexagon with side 1.25 has area 4.059
-A dodecagon with side 1.25 has area 17.494
+Please enter the side length: 1.35
+A triangle with side 1.35 has area 0.789
+A square with side 1.35 has area 1.823
+A pentagon with side 1.35 has area 3.136
+A hexagon with side 1.35 has area 4.735
+A dodecagon with side 1.35 has area 20.405
 ```
 
 **Helpful Hint**: When testing/debugging a program that requires input from the keyboard, it can be quite frustrating to have to retype the input every time you want to run the program. One technique for dealing with this problem is to simply “hard code” the variable values during the debugging process (assign variable values in the code rather that retrieving values from the keyboard), then add the code to retrieve the input from the keyboard after you are sure the code works.
