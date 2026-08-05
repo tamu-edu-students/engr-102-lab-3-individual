@@ -91,7 +91,7 @@ If you complete this challenge correctly, you will receive **2 bonus points** on
 
 
 ## Frequently Asked Questions
-1. **How do I round my output again?** Use string formatting (not the `round()` function!) to specify how many digits to display. Watch [this video](https://mediasite.tamu.edu/Mediasite/Play/95fc0a90130d47f5802d87e1d3020ecd1d) for examples.
+1. **How do I round my output again?** Use string formatting (not the `round()` function!) to specify how many digits to display. Watch [this video](https://tamu.video.yuja.com/V/Video?v=16646920&node=70952984&a=205696672) for examples.
 
 2. **Do I have to use radians in my trig functions every time?** YES! Every. Single. Time. Have python convert for you! Example: `sin(angle * pi / 180)`
 
