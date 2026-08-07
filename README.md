@@ -11,19 +11,19 @@ This lab consists of two individual activities, and an optional bonus activity. 
 Convert your program from [individual Lab: Topic 2 Activity #1 (Using Variables)](https://github.com/tamu-edu-students/engr-102-lab-2-individual?tab=readme-ov-file#using-variables) to a new program that produces identical output. However, your new program should take in input from the user as appropriate, store values in variables, and output in the required format. Please name the program `using_input.py`.
 
 Produce output for the following calculations:
-1. Calculate the **Reynolds Number (Re)** for a fluid with a given velocity in m/s, a given characteristic linear dimension in m, and a given viscosity in m^2/s. Display the result with zero (0) decimal places.
-2. Calculate the **wavelength** of x-rays scattering from a crystal lattice with a given distance between crystal layers in nm and a given scattering angle in degrees. Assume first order diffraction. Display the result with four (4) decimal places. (See **Bragg’s Law** from before)
-3. Use the **Arps equation** to calculate the production rate of a well given a time in days, an initial production rate in barrels/day, an initial decline rate in 1/day, and a hyperbolic constant of 0.8. Display the result with two (2) decimal places.
-4. Use the **Tsiolkovsky rocket equation** to calculate the change of velocity of an object with a given initial mass in kg, a given final mass in kg, and a given exhaust velocity in m/s. Display the result with one (1) decimal places.
+1. Calculate the **Reynolds Number (Re)** for a fluid with a given velocity in *m/s*, a given characteristic linear dimension in *m*, and a given viscosity in *m^2/s*. Display the result with zero (0) decimal places.
+2. Calculate the **wavelength** of x-rays scattering from a crystal lattice with a given distance between crystal layers in *nm* and a given scattering angle in *degrees*. Assume first order diffraction. Display the result with four (4) decimal places. (See **Bragg’s Law** from before)
+3. Use the **Arps equation** to calculate the production rate of a well given a time in *days*, an initial production rate in *barrels/day*, an initial decline rate in *1/day*, and a hyperbolic constant of 0.8. Display the result with two (2) decimal places.
+4. Use the **Tsiolkovsky rocket equation** to calculate the change of velocity of an object with a given initial mass in *kg*, a given final mass in *kg*, and a given exhaust velocity in *m/s*. Display the result with one (1) decimal places.
 
 Each part of your program should perform the following tasks:
 - Print what the part of the program does to the screen.
-- Prompt the user to enter required data from the keyboard. Include proper units in the prompt as shown in the example output below.
+- Prompt the user to enter required data from the keyboard. Include proper units in the prompt as shown in the example output below. Also note the order of inputs in the example below.
 - Get the inputs from the user and store in appropriately named variables.
 - Perform the necessary calculations.
 - Output the result to the screen with **proper labels and units**.
 
-Example output (using inputs `9`, `0.875`, `0.0015`, `0.025`, `35`, `10`, `100`, `2`, `11000`, `8300`, and `2029`):
+Example output (using inputs `9`, `0.875`, `0.0015`, `0.030`, `35`, `10`, `100`, `2`, `11000`, `8300`, and `2030`):
 ```
 This program calculates the Reynolds number given velocity, length, and viscosity
 Please enter the velocity (m/s): 9
@@ -32,9 +32,9 @@ Please enter the viscosity (m^2/s): 0.0015
 Reynolds number is 5250
 
 This program calculates the wavelength given distance and angle
-Please enter the distance (nm): 0.025
+Please enter the distance (nm): 0.030
 Please enter the angle (degrees): 35
-Wavelength is 0.0287 nm
+Wavelength is 0.0344 nm
 
 This program calculates the production rate given time, initial rate, and decline rate
 Please enter the time (days): 10
@@ -45,8 +45,8 @@ Production rate is 2.90 barrels/day
 This program calculates the change of velocity given initial mass, final mass, and exhaust velocity
 Please enter the initial mass (kg): 11000
 Please enter the final mass (kg): 8300
-Please enter the exhaust velocity (m/s): 2029
-Change of velocity is 571.4 m/s
+Please enter the exhaust velocity (m/s): 2030
+Change of velocity is 571.7 m/s
 ```
 
 As always, please include descriptive comments in your code so that someone may follow your programming logic.
@@ -65,14 +65,14 @@ We’re going to ignore units for this problem. The template provided contains t
 
 Before you beginning coding, you should stop and think briefly about how you want to structure your program. This activity is a great way to practice calling the same function multiple times.
 
-Example output (using input `1.25`):
+Example output (using input `1.35`):
 ```
-Please enter the side length: 1.25
-A triangle with side 1.25 has area 0.677
-A square with side 1.25 has area 1.562
-A pentagon with side 1.25 has area 2.688
-A hexagon with side 1.25 has area 4.059
-A dodecagon with side 1.25 has area 17.494
+Please enter the side length: 1.35
+A triangle with side 1.35 has area 0.789
+A square with side 1.35 has area 1.823
+A pentagon with side 1.35 has area 3.136
+A hexagon with side 1.35 has area 4.735
+A dodecagon with side 1.35 has area 20.405
 ```
 
 **Helpful Hint**: When testing/debugging a program that requires input from the keyboard, it can be quite frustrating to have to retype the input every time you want to run the program. One technique for dealing with this problem is to simply “hard code” the variable values during the debugging process (assign variable values in the code rather that retrieving values from the keyboard), then add the code to retrieve the input from the keyboard after you are sure the code works.
@@ -91,7 +91,7 @@ If you complete this challenge correctly, you will receive **2 bonus points** on
 
 
 ## Frequently Asked Questions
-1. **How do I round my output again?** Use string formatting (not the `round()` function!) to specify how many digits to display. Watch [this video](https://mediasite.tamu.edu/Mediasite/Play/95fc0a90130d47f5802d87e1d3020ecd1d) for examples.
+1. **How do I round my output again?** Use string formatting (not the `round()` function!) to specify how many digits to display. Watch [this video](https://tamu.video.yuja.com/V/Video?v=16646920&node=70952984&a=205696672) for examples.
 
 2. **Do I have to use radians in my trig functions every time?** YES! Every. Single. Time. Have python convert for you! Example: `sin(angle * pi / 180)`
 
@@ -102,4 +102,4 @@ If you complete this challenge correctly, you will receive **2 bonus points** on
 Have a question you don't see here? Email your instructor!
 
 Based upon Dr. Keyser’s Original<br/>
-Revised Summer 2025 SNR
+Revised Summer 2026 SNR
